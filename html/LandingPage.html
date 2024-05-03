@@ -21,5 +21,131 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation bar -->
+
+    <nav class="z-0 relative" x-data="{open:false,menu:false, lokasi:false}">
+      <div class="relative z-10 bg-white shadow p-2">
+        <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <!-- Logo aligned to the left -->
+            <div class="flex items-center px-3 lg:px-0">
+              <a class="flex-shrink-0 flex" href="#">
+                <img
+                  class="block lg:hidden"
+                  height="30"
+                  width="30"
+                  src="/Public/image.png"
+                  alt="Logo"
+                />
+                <img
+                  class="hidden lg:block"
+                  height="30"
+                  width="30"
+                  src="/Public/image.png"
+                  alt="Logo"
+                />
+                <span class="ml-4 text-2xl text-[#f48814] font-bold font-serif"
+                  >HS Art</span
+                >
+              </a>
+            </div>
+            <!-- Navigation links aligned to the right -->
+            <div class="flex lg:justify-end lg:ml-auto">
+              <div class="hidden lg:block lg:ml-2">
+                <div class="flex pt-2">
+                  <a
+                    href="#services"
+                    class="ml-4 px-3 under py-2 rounded-md text-sm leading-5 font-semibold text-gray-600 hover:text-black transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-black"
+                  >
+                    Services
+                  </a>
+
+                  <a
+                    href="#contactUs"
+                    class="ml-4 px-3 under py-2 rounded-md text-sm leading-5 font-semibold text-gray-600 hover:text-black transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-black"
+                  >
+                    Contact Us
+                  </a>
+                  <a
+                    href="#aboutUs"
+                    class="ml-4 px-3 py-2 under rounded-md text-sm leading-5 font-semibold text-gray-600 hover:text-black transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-black"
+                  >
+                    About Us
+                  </a>
+                  <a
+                    href="#team"
+                    class="ml-4 px-3 py-2 under rounded-md text-sm leading-5 font-semibold text-gray-600 hover:text-black transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-black"
+                  >
+                    Team
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex lg:hidden">
+              <button
+                @click="menu=!menu"
+                class="inline-flex rounded-full items-center justify-center p-3 text-gray-500 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 transition duration-150 ease-in-out"
+                aria-label="Main menu"
+                aria-expanded="false"
+              >
+                <svg
+                  class="block h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+                <svg
+                  class="hidden h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div x-show="menu" class="block md:hidden">
+          <div class="px-2 pt-2 pb-3">
+            <a
+              href="#services"
+              class="mt-1 block hover:text-black px-3 py-2 rounded-md text-gray-600 text-sm font-medium focus:outline-none focus:text-black transition duration-150 ease-in-out"
+              >Services
+            </a>
+            <a
+              href="#contactUs"
+              class="mt-1 block hover:text-black px-3 py-2 rounded-md text-gray-600 text-sm font-medium focus:outline-none focus:text-black transition duration-150 ease-in-out"
+              >Contact Us
+            </a>
+            <a
+              href="#aboutUs"
+              class="mt-1 hover:text-black block px-3 py-2 rounded-md text-gray-600 text-sm font-medium focus:outline-none focus:text-black transition duration-150 ease-in-out"
+              >About Us
+            </a>
+            <a
+              href="#team"
+              class="mt-1 hover:text-black block px-3 py-2 rounded-md text-gray-600 text-sm font-medium focus:outline-none focus:text-black transition duration-150 ease-in-out"
+              >Team
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
