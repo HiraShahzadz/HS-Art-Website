@@ -1,12 +1,12 @@
 <p  align="center"><a  href="https://hirashahzadz.github.io/HS-Art-Website/">
-    <img src="https://cdn-icons-png.flaticon.com/128/3528/3528221.png" alt="Cv Button">
+    <img src="https://cdn-icons-png.flaticon.com/128/3528/3528221.png" alt="logo">
 </a>
 </p>
 <h1 align="center">HS Art Website</h1>
 <h3 align="center">Behindev task 1 to create landing page in HTML,css and js</h3>
 <h5 align="center">HS Art is a website dedicated to showcasing various artistic services including Calligraphy, Photography, Sketching, and Painting. This repository contains the source code for the HS Art website.</h5>
 <p  align="center"><a  href="https://hirashahzadz.github.io/HS-Art-Website/">
-    <img src="https://img.shields.io/badge/-Clich%20Here%20to%20See%20Website-<COLOR>?style=flat-square&logo=appveyor&logoColor=white" alt="Cv Button">
+    <img src="https://img.shields.io/badge/-Clich%20Here%20to%20See%20Website-<COLOR>?style=flat-square&logo=appveyor&logoColor=white" alt="Website link">
 </a>
 </p>
 
